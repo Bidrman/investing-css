@@ -1,0 +1,12 @@
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+
+    li {
+        display: block;
+        text-align: center;
+        height: 36px;
+        line-height: 36px;
+        letter-spacing: 0.5px;
+    }
+}
