@@ -3,6 +3,8 @@ import { Container, Row, Col, Card } from 'reactstrap'
 
 import styles from './styles/modules.scss'
 
+import { PersonPlus } from 'react-bootstrap-icons'
+
 import Airbank from './components/icons/airbank'
 import Subfooter from './features/subfooter'
 import Footer from './features/footer/Footer'
@@ -19,7 +21,10 @@ const App = (props) => {
                                 <Airbank />
                             </Col>
                             <Col xs='6' sm='5'>
-                                <button>button 1</button>
+                                <button className='header__btn'>
+                                    <PersonPlus fill='#9c3' />
+                                    <span className='header__btn-text'>Stát se klientem</span>
+                                </button>
                                 <button>button 2</button>
                             </Col>
                         </Row>

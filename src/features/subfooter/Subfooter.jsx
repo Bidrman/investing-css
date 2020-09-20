@@ -8,7 +8,7 @@ const Subfooter = () => {
         <Container>
             <Row>
                 <Col>
-                    <h4 className='green'>Kontaktujte nás</h4>
+                    <h4 className='green mb-3'>Kontaktujte nás</h4>
                     <div className='mb-4'>
                         <Telephone width='20' height='20' className='mr-3' fill='#9c3' />
                         <a href='tel:+420515202202' className='icon-phone'>
@@ -35,7 +35,7 @@ const Subfooter = () => {
                     </div>
                 </Col>
                 <Col>
-                    <h4 className='green'>O Air Bank</h4>
+                    <h4 className='green mb-3'>O Air Bank</h4>
                     <div>
                         <ul className='subfooter__list'>
                             <li className='subfooter__list-item mb-2'>
@@ -72,7 +72,7 @@ const Subfooter = () => {
                     </div>
                 </Col>
                 <Col>
-                    <h4 className='green'>Nabídka</h4>
+                    <h4 className='green mb-3'>Nabídka</h4>
                     <div>
                         <ul className='subfooter__list'>
                             <li className='subfooter__list-item mb-2'>
@@ -124,7 +124,7 @@ const Subfooter = () => {
                     </div>
                 </Col>
                 <Col>
-                    <h4 className='green'>Podpora</h4>
+                    <h4 className='green mb-3'>Podpora</h4>
                     <div>
                         <ul className='subfooter__list'>
                             <li className='subfooter__list-item mb-2'>

@@ -7,27 +7,31 @@ import Airbank from '../../files/images/airbank.PNG'
 import Fb from '../../components/icons/fb'
 import Twitter from '../../components/icons/twitter'
 import LinkedIn from '../../components/icons/linkedin'
+import Youtube from '../../components/icons/youtube'
 
 const Footer = () => {
     return (
         <Container>
             <Row className='mb-3'>
                 <Col>
-                    <h4 className='green text-center'>Sledujte nás</h4>
+                    <h4 className='green text-center mb-3'>Sledujte nás</h4>
                     <Row className='medias'>
                         <span className='social-media'>
                             <Fb />
                         </span>
                         <span className='social-media'>
+                            <LinkedIn />
+                        </span>
+                        <span className='social-media'>
                             <Twitter />
                         </span>
                         <span className='social-media'>
-                            <LinkedIn />
+                            <Youtube />
                         </span>
                     </Row>
                 </Col>
                 <Col>
-                    <h4 className='green'>Mobilní bankovnictví My Air</h4>
+                    <h4 className='green mb-4'>Mobilní bankovnictví My Air</h4>
                     <Row>
                         <div className='mx-2'>
                             <Google fill='#fff' />
@@ -39,19 +43,29 @@ const Footer = () => {
                             <Ios />
                         </div>
                     </Row>
-                    <Row className='footer__logo mt-4'>
-                        <img
-                            src='https://cdn.siteone.io/img.siteone.cz/rs_75_fill_auto,o_webp/https%3A%2F%2Fwww.airbank.cz%2Fnovinky-z-airbank%2F2020%2FPPF_logo.png'
-                            alt='PPF-logo'
-                        />
-                    </Row>
                 </Col>
                 <Col>
-                    <h4 className='green'>Kurzovní lístek</h4>
-                    <div>
-                        <span>Kurz1</span>
-                        <span>Kurz2</span>
-                    </div>
+                    <h4 className='green text-center mb-4'>Kurzovní lístek</h4>
+                    <Row className='center'>
+                        <div className='ratio'>
+                            <div className='ratio__logo'>
+                                <span>€</span>
+                            </div>
+                            <div className='ratio__text ml-2 mr-5'>
+                                <span className='ratio__currency'>EUR/CZK</span>
+                                <span className='ratio__value'>27,43</span>
+                            </div>
+                        </div>
+                        <div className='ratio'>
+                            <div className='ratio__logo'>
+                                <span>$</span>
+                            </div>
+                            <div className='ratio__text ml-2'>
+                                <span className='ratio__currency'>USD/CZK</span>
+                                <span className='ratio__value'>23,36</span>
+                            </div>
+                        </div>
+                    </Row>
                 </Col>
             </Row>
             <Row>

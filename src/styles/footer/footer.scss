@@ -17,4 +17,46 @@
     .social-media {
         padding: 10px;
     }
+
+    .ratio {
+        display: flex;
+        justify-content: flex-start;
+        flex-flow: row nowrap;
+
+        &__logo {
+            border-radius: 50%;
+            border: 2px solid $green;
+            width: 2rem;
+            height: 2rem;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+
+            span {
+                font-size: 22px;
+                font-weight: 500;
+                color: $green;
+                line-height: 26px;
+            }
+        }
+
+        &__text {
+            display: flex;
+            flex-flow: column;
+        }
+
+        &__currency {
+            line-height: 14px;
+        }
+
+        &__value {
+            color: $green;
+            font-weight: 500;
+        }
+    }
+
+    .center {
+        display: flex;
+        justify-content: center;
+    }
 }
