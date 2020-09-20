@@ -4,9 +4,12 @@
 @import './main.scss';
 
 @import './navigation/navigation';
+@import './subfooter/subfooter';
+@import './footer/footer';
 
 //Features
 
 // FONTS
 @import './typography/font-family';
+@import './typography/headings';
 @import './typography/links';

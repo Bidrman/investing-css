@@ -3,17 +3,20 @@ import { Container, Row, Col, Card } from 'reactstrap'
 
 import styles from './styles/modules.scss'
 
+import Airbank from './components/icons/airbank'
+import Subfooter from './features/subfooter'
+import Footer from './features/footer/Footer'
 import Link from './components/link'
 
 const App = (props) => {
     return (
         <div className='page'>
-            <header>
+            <header className='pt-2'>
                 <section className='header'>
                     <Container>
                         <Row>
                             <Col xs='6' sm='2'>
-                                LOGO
+                                <Airbank />
                             </Col>
                             <Col xs='6' sm='5'>
                                 <button>button 1</button>
@@ -58,6 +61,21 @@ const App = (props) => {
                     </Container>
                 </section>
             </header>
+            <section>
+                <Container>
+                    <Row>
+                        <div>BU</div>
+                    </Row>
+                </Container>
+            </section>
+            <footer>
+                <section className='subfooter'>
+                    <Subfooter />
+                </section>
+                <section className='footer'>
+                    <Footer />
+                </section>
+            </footer>
         </div>
     )
 }

@@ -1,0 +1,54 @@
+.subfooter {
+    background: $grey;
+    padding: 48px 0;
+
+    &__list {
+        list-style: none;
+    }
+
+    &__list-item {
+    }
+
+    &__link {
+        color: $white;
+        font-size: 16px;
+        position: relative;
+        text-decoration: underline;
+        transition: color 0.25s;
+
+        &::before {
+            position: absolute;
+            left: -35px;
+            content: '🡒';
+            color: $green;
+            font-size: 17px;
+            text-decoration: none;
+            transition: all 0.75s;
+        }
+
+        &:hover {
+            color: $green;
+            text-decoration: underline;
+
+            &::before {
+                left: -27px;
+            }
+        }
+    }
+
+    .icon {
+        color: $white;
+        text-decoration: underline;
+        font-weight: 500;
+        transition: color 0.25s;
+
+        &:hover {
+            color: $green;
+        }
+
+        &-phone {
+            color: $green;
+            font-size: 17px;
+        }
+    }
+}
