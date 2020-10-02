@@ -37,7 +37,7 @@ const Footer = () => {
                             <Google fill='#fff' />
                         </div>
                         <div className='mb-2'>
-                            <img src={Airbank} />
+                            <img src={Airbank} alt='airbank logo' />
                         </div>
                         <div className='mx-2'>
                             <Ios />

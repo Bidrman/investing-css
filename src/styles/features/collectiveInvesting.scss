@@ -1,0 +1,22 @@
+.collective-investing {
+    &__left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__text {
+    }
+
+    &__heading {
+        font-size: 32px;
+        // @include mobile {
+        //     margin-bottom: 3rem;
+        // }
+    }
+
+    // @include mobile {
+    //     display: flex;
+    //     flex-flow: column nowrap;
+    // }
+}

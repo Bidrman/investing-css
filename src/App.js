@@ -11,6 +11,9 @@ import Footer from './features/footer/Footer'
 
 import background from '../src/files/images/night.jpg'
 import Invest from './features/whyInvest/Invest'
+import CollectiveInvesting from './features/collectiveInvesting/CollectiveInvesting'
+import Thoughts from './features/thoughts/Thoughts'
+import EasyBegin from './features/easyBegin/EasyBegin'
 
 const App = (props) => {
     return (
@@ -41,6 +44,21 @@ const App = (props) => {
             <section className='investing'>
                 <Container className='pt-5 pb-3 px-0'>
                     <Invest heading='Proč investovat do fondů' />
+                </Container>
+            </section>
+            <section className='bg-gray'>
+                <Container className=''>
+                    <CollectiveInvesting />
+                </Container>
+            </section>
+            <section className='py-4'>
+                <Container className=''>
+                    <Thoughts />
+                </Container>
+            </section>
+            <section className='py-4'>
+                <Container className=''>
+                    <EasyBegin />
                 </Container>
             </section>
             <footer>
