@@ -6,7 +6,7 @@ import CoolectiveImage from '../../files/images/collective.PNG'
 const CollectiveInvesting = () => {
     return (
         <Row className={'collective-investing'}>
-            <Col className={'collective-investing__left'}>
+            <Col xs={'12'} lg={'6'} className={'collective-investing__left'}>
                 <h3 className={'mb-5 mt-4 font-weight-lighter collective-investing__heading'}>
                     Co je kolektivní investování
                 </h3>
@@ -25,8 +25,8 @@ const CollectiveInvesting = () => {
                     </p>
                 </div>
             </Col>
-            <Col className={'pr-0'}>
-                <img src={CoolectiveImage} alt='illustrated picture' className={''} />
+            <Col xs={'12'} lg={'6'} className={'pr-0 text-center'}>
+                <img src={CoolectiveImage} alt='illustrated_picture' className={'w-100'} />
             </Col>
         </Row>
     )

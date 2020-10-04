@@ -33,10 +33,10 @@
             justify-content: center;
 
             span {
-                font-size: 22px;
+                font-size: 21px;
                 font-weight: 500;
                 color: $green;
-                line-height: 26px;
+                line-height: 27px;
             }
         }
 
@@ -53,10 +53,28 @@
             color: $green;
             font-weight: 500;
         }
+
+        &__apps {
+            display: flex;
+            flex-direction: row;
+        }
     }
 
     .center {
         display: flex;
         justify-content: center;
+    }
+
+    @include media-breakpoint-down(md) {
+        .footer__socials {
+            display: flex;
+            flex-flow: column nowrap;
+        }
+
+        .footer__apps {
+            display: flex;
+            flex-direction: row;
+            margin: 0 auto;
+        }
     }
 }

@@ -12,7 +12,7 @@ import Youtube from '../../components/icons/youtube'
 const Footer = () => {
     return (
         <Container>
-            <Row className='mb-3'>
+            <Row className='mb-3 footer__socials'>
                 <Col>
                     <h4 className='green text-center mb-3'>Sledujte nás</h4>
                     <Row className='medias'>
@@ -33,14 +33,16 @@ const Footer = () => {
                 <Col>
                     <h4 className='green mb-4'>Mobilní bankovnictví My Air</h4>
                     <Row>
-                        <div className='mx-2'>
-                            <Google fill='#fff' />
-                        </div>
-                        <div className='mb-2'>
-                            <img src={Airbank} alt='airbank logo' />
-                        </div>
-                        <div className='mx-2'>
-                            <Ios />
+                        <div className={'d-flex m-auto'}>
+                            <div className='mx-2'>
+                                <Google fill='#fff' />
+                            </div>
+                            <div className='mb-2'>
+                                <img src={Airbank} alt='airbank logo' />
+                            </div>
+                            <div className='mx-2'>
+                                <Ios />
+                            </div>
                         </div>
                     </Row>
                 </Col>

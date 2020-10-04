@@ -4,7 +4,6 @@ import { Container, Row } from 'reactstrap'
 import styles from './styles/modules.scss'
 
 import Navigation from './components/navigation/Navigation'
-import HeaderButtons from './components/headerButtons'
 import Hero from './features/hero'
 import Subfooter from './features/subfooter'
 import Footer from './features/footer/Footer'
@@ -19,18 +18,9 @@ const App = (props) => {
     return (
         <div className='page'>
             <header className='pt-2'>
-                <section className='header mb-2'>
-                    <Container>
-                        <Row>
-                            <HeaderButtons />
-                        </Row>
-                    </Container>
-                </section>
-                <section className='menu'>
-                    <Container>
-                        <Row>
-                            <Navigation />
-                        </Row>
+                <section>
+                    <Container className={'px-3'}>
+                        <Navigation />
                     </Container>
                 </section>
             </header>

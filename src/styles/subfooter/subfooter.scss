@@ -51,4 +51,19 @@
             font-size: 17px;
         }
     }
+
+    &__navigation {
+        align-items: flex-start;
+    }
+
+    @include media-breakpoint-down(md) {
+        &__navigation {
+            display: flex;
+            flex-flow: column nowrap;
+        }
+
+        .navbar-toggler {
+            border: none !important;
+        }
+    }
 }
