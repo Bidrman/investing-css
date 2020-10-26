@@ -9,9 +9,9 @@ const Subfooter = () => {
         <Container>
             <Navbar expand={'lg'} collapseOnSelect className={'w-100 subfooter__navigation'}>
                 <Col>
-                    <h4 className='green mb-3'>Kontaktujte nás</h4>
+                    <h4 className='green mb-3  font-20'>Kontaktujte nás</h4>
                     <div className='mb-4'>
-                        <Telephone width='20' height='20' className='mr-3' fill='#9c3' />
+                        <Telephone width='25' height='25' className='mr-2' fill='#9c3' />
                         <a href='tel:+420515202202' className='icon-phone'>
                             +420 515 202 202
                         </a>
@@ -37,9 +37,9 @@ const Subfooter = () => {
                 </Col>
                 <Col>
                     <Navbar.Toggle aria-controls='footerAirbank'>
-                        <h4 className='green mb-3'>O Air Bank</h4>
+                        <h4 className='green mb-3 font-20'>O Air Bank</h4>
                     </Navbar.Toggle>
-                    <h4 className='green mb-3 ghost'>O Air Bank</h4>
+                    <h4 className='green mb-3 ghost  font-20'>O Air Bank</h4>
                     <Navbar.Collapse id={'footerAirbank'}>
                         <ul className='subfooter__list'>
                             <li className='subfooter__list-item mb-2'>
@@ -77,9 +77,9 @@ const Subfooter = () => {
                 </Col>
                 <Col>
                     <Navbar.Toggle aria-controls='footerOffer'>
-                        <h4 className='green mb-3'>Nabídka</h4>
+                        <h4 className='green mb-3  font-20'>Nabídka</h4>
                     </Navbar.Toggle>
-                    <h4 className='green mb-3 ghost'>Nabídka</h4>
+                    <h4 className='green mb-3 ghost font-20'>Nabídka</h4>
                     <Navbar.Collapse id={'footerOffer'}>
                         <ul className='subfooter__list'>
                             <li className='subfooter__list-item mb-2'>
@@ -132,9 +132,9 @@ const Subfooter = () => {
                 </Col>
                 <Col>
                     <Navbar.Toggle aria-controls='footerSupport'>
-                        <h4 className='green mb-3'>Podpora</h4>
+                        <h4 className='green mb-3 font-20'>Podpora</h4>
                     </Navbar.Toggle>
-                    <h4 className='green mb-3 ghost'>Podpora</h4>
+                    <h4 className='green mb-3 ghost font-20'>Podpora</h4>
                     <Navbar.Collapse id={'footerSupport'}>
                         <ul className='subfooter__list'>
                             <li className='subfooter__list-item mb-2'>

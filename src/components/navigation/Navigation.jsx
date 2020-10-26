@@ -16,12 +16,12 @@ const Navigation = () => {
             </Col>
             <Col xs='8' md='9' lg='10' className='text-right'>
                 <button className='navigation__btn mr-3'>
-                    <PersonPlus fill='#9c3' />
-                    <span className='navigation__btn-text'>Stát se klientem</span>
+                    <PersonPlus fill='#9c3' size={20} />
+                    <span className='navigation__btn-text font-14'>Stát se klientem</span>
                 </button>
                 <button className='navigation__btn mr-3'>
-                    <Lock fill='#9c3' />
-                    <span className='navigation__btn-text'>Internetové bankovnictví</span>
+                    <Lock fill='#9c3' size={20} />
+                    <span className='navigation__btn-text font-14'>Internetové bankovnictví</span>
                 </button>
                 <button className='navigation__btn'>
                     <Search fill='#9c3' />
@@ -32,33 +32,33 @@ const Navigation = () => {
                     <span className={'navbar-toggler-icon'}></span>
                 </Navbar.Toggle>
                 <Navbar.Collapse id={'collapsibleNavbar'}>
-                    <ul className='navbar-nav navigation__list'>
+                    <ul className='navbar-nav navigation__list w-100 justify-content-between'>
                         <li className={'nav-item font-15'}>
-                            <Link className={'nav-link'} text='Běžný účet' />
+                            <Link className={'navigation__link'} text='Běžný účet' />
                         </li>
                         <li className={'nav-item font-15'}>
-                            <Link className={'nav-link'} text='Spořící účet' />
+                            <Link className={'navigation__link'} text='Spořící účet' />
                         </li>{' '}
                         <li className={'nav-item font-15'}>
-                            <Link className={'nav-link'} text='Půjčka' />
+                            <Link className={'navigation__link'} text='Půjčka' />
                         </li>
                         <li className={'nav-item font-15'}>
-                            <Link className={'nav-link'} text='Hypotéka' />
+                            <Link className={'navigation__link'} text='Hypotéka' />
                         </li>{' '}
                         <li className={'nav-item font-15'}>
-                            <Link className={'nav-link'} text='Pojištění' />
+                            <Link className={'navigation__link'} text='Pojištění' />
                         </li>
                         <li className={'nav-item font-15'}>
-                            <Link className={'nav-link'} text='Investice' />
+                            <Link className={'navigation__link'} text='Investice' />
                         </li>
                         <li className={'nav-item font-15'}>
-                            <Link className={'nav-link'} text='O nás' />
+                            <Link className={'navigation__link'} text='O nás' />
                         </li>
                         <li className={'nav-item font-15'}>
-                            <Link className={'nav-link'} text='Aplikace My Air' />
+                            <Link className={'navigation__link'} text='Aplikace My Air' />
                         </li>
                         <li className={'nav-item font-15'}>
-                            <Link className={'nav-link'} text='Pobočky a bankomaty' />
+                            <Link className={'navigation__link'} text='Pobočky a bankomaty' />
                         </li>
                     </ul>
                 </Navbar.Collapse>

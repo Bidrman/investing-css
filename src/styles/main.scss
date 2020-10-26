@@ -3,7 +3,8 @@ html {
 }
 
 body {
-    font-size: 15px;
+    font-size: 16px;
+    line-height: 1.6;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: $grey;
@@ -42,16 +43,44 @@ a {
     font-size: 12px !important;
 }
 
+.font-13 {
+    font-size: 13px !important;
+}
+
+.font-14 {
+    font-size: 14px !important;
+}
+
 .font-15 {
     font-size: 15px !important;
+}
+
+.font-20 {
+    font-size: 20px !important;
 }
 
 .font-22 {
     font-size: 22px !important;
 }
 
+.font-24 {
+    font-size: 24px !important;
+}
+
+.font-36 {
+    font-size: 36px !important;
+}
+
 .text-black {
     color: $black;
+}
+
+text-graish {
+    color: #0a100d;
+}
+
+.mb-6 {
+    margin-bottom: 4rem !important;
 }
 
 @include media-breakpoint-down(md) {

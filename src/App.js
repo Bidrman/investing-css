@@ -32,7 +32,7 @@ const App = (props) => {
                 </Container>
             </section>
             <section className='investing'>
-                <Container className='pt-5 pb-3 px-0'>
+                <Container className='pt-5 pb-4 px-0'>
                     <Invest heading='Proč investovat do fondů' />
                 </Container>
             </section>
@@ -46,7 +46,7 @@ const App = (props) => {
                     <Thoughts />
                 </Container>
             </section>
-            <section className='py-4'>
+            <section className='easy'>
                 <Container className=''>
                     <EasyBegin />
                 </Container>

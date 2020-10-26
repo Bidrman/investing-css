@@ -14,7 +14,7 @@ const Footer = () => {
         <Container>
             <Row className='mb-3 footer__socials'>
                 <Col>
-                    <h4 className='green text-center mb-3'>Sledujte nás</h4>
+                    <h4 className='green text-center mb-3 font-20'>Sledujte nás</h4>
                     <Row className='medias'>
                         <span className='social-media'>
                             <Fb />
@@ -31,7 +31,7 @@ const Footer = () => {
                     </Row>
                 </Col>
                 <Col>
-                    <h4 className='green mb-4'>Mobilní bankovnictví My Air</h4>
+                    <h4 className='green text-center mb-4 font-20'>Mobilní bankovnictví My Air</h4>
                     <Row>
                         <div className={'d-flex m-auto'}>
                             <div className='mx-2'>
@@ -47,14 +47,14 @@ const Footer = () => {
                     </Row>
                 </Col>
                 <Col>
-                    <h4 className='green text-center mb-4'>Kurzovní lístek</h4>
+                    <h4 className='green text-center mb-4 font-20'>Kurzovní lístek</h4>
                     <Row className='center'>
                         <div className='ratio'>
                             <div className='ratio__logo'>
                                 <span>€</span>
                             </div>
                             <div className='ratio__text ml-2 mr-5'>
-                                <span className='ratio__currency'>EUR/CZK</span>
+                                <span className='ratio__currency font-13'>EUR/CZK</span>
                                 <span className='ratio__value'>27,43</span>
                             </div>
                         </div>
@@ -63,7 +63,7 @@ const Footer = () => {
                                 <span>$</span>
                             </div>
                             <div className='ratio__text ml-2'>
-                                <span className='ratio__currency'>USD/CZK</span>
+                                <span className='ratio__currency font-13'>USD/CZK</span>
                                 <span className='ratio__value'>23,36</span>
                             </div>
                         </div>
@@ -72,7 +72,7 @@ const Footer = () => {
             </Row>
             <Row>
                 <Col className='text-sm-center'>
-                    <div className='footer__copyright'>
+                    <div className='footer__copyright font-12'>
                         Člen skupiny PPF, IČO 29045371 / Evropská 2690/17, 160 00 Praha 6, zapsaná u
                         rejstříkového soudu v Praze — spisová značka B 16013
                     </div>

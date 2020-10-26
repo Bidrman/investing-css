@@ -7,10 +7,14 @@ const CollectiveInvesting = () => {
     return (
         <Row className={'collective-investing'}>
             <Col xs={'12'} lg={'6'} className={'collective-investing__left'}>
-                <h3 className={'mb-5 mt-4 font-weight-lighter collective-investing__heading'}>
+                <h3
+                    className={
+                        'mb-5 mt-5 font-weight-lighter collective-investing__heading font-36 text-graish'
+                    }
+                >
                     Co je kolektivní investování
                 </h3>
-                <div className={'collective-investing__text'}>
+                <div className={'collective-investing__text pr-4'}>
                     <p>
                         Kolektivné investování je takové skupinové investování ku prospěchu všech
                         zúčastněných. Místo toho, abyste investovali do jedné věci sami, svěřite svoje peníze

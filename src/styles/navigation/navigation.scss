@@ -25,6 +25,10 @@
         margin-top: -1rem;
     }
 
+    &__link {
+        font-weight: 300 !important;
+    }
+
     @include media-breakpoint-down(md) {
         #collapsibleNavbar {
             width: 100vw;
@@ -39,5 +43,9 @@
         .navigation__btn-text {
             display: none;
         }
+    }
+
+    @include media-breakpoint-down(sm) {
+        padding-bottom: 7px;
     }
 }

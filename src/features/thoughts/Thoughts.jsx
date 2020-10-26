@@ -7,7 +7,9 @@ const Thoughts = () => {
         <>
             <Row>
                 <Col className={'text-center pt-3'}>
-                    <h2 className={'font-weight-lighter mt-2 mb-5'}>Co je dobré si na začátku promyslet</h2>
+                    <h2 className={'font-weight-lighter font-36 mt-2 mb-6 text-graish'}>
+                        Co je dobré si na začátku promyslet
+                    </h2>
                 </Col>
             </Row>
             <Row>
